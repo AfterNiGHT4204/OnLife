@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsPage"
+    android:background="#fff">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="77dp"
+                android:layout_height="100dp"
+                ></Space>
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/music_toggle"
+                android:background="@drawable/rounded_rectangle_grey"
+
+                ></ImageButton>
+
+            <Space
+                android:layout_width="60dp"
+                android:layout_height="100dp"></Space>
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/sound_toggle"
+                android:background="@drawable/rounded_rectangle_grey"
+                ></ImageButton>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        </Space>
+
+        <android.widget.Button
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:id="@+id/theme_toggle"
+            android:textColor="@color/white"
+            android:text="Toggle theme"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_rectangle_grey"
+            ></android.widget.Button>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+        </Space>
+
+        <android.widget.Button
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:id="@+id/donate_butt"
+            android:textColor="@color/white"
+            android:text="Donate us"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_rectangle_grey"
+            ></android.widget.Button>
+    </LinearLayout>
+
+</FrameLayout>
